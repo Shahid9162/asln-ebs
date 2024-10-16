@@ -1,0 +1,35 @@
+.event-details {
+  max-width: 30rem;
+  margin: 0 auto;
+  padding: 1rem;
+  background-color: white;
+  border: 0.1rem solid #ddd;
+  border-radius: 0.8rem;
+  text-align: center;
+}
+
+.ticket-counter {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+  justify-content: center;
+}
+
+.ticket-button {
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 0.2rem;
+}
+
+.book-ticket-button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 0.2rem;
+}

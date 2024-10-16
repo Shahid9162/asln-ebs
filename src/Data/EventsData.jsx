@@ -1,0 +1,133 @@
+const eventsData = [
+  {
+    id: 1,
+    title: "Music Concert",
+    description: "An amazing night with live performances by top artists.",
+    category: "Music",
+    date: "2024-11-12",
+    availableSeats: 50,
+    price: 50,
+    imageUrl: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4",
+  },
+  {
+    id: 2,
+    title: "Art Exhibition",
+    description: "Explore the finest modern art by world-renowned artists.",
+    category: "Art",
+    date: "2024-10-28",
+    availableSeats: 30,
+    price: 20,
+    imageUrl: "https://images.unsplash.com/photo-1521747116042-5a810fda9664",
+  },
+  {
+    id: 3,
+    title: "Tech Conference",
+    description:
+      "Stay ahead of tech trends with industry experts and innovators.",
+    category: "Technology",
+    date: "2024-12-05",
+    availableSeats: 100,
+    price: 150,
+    imageUrl: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d",
+  },
+  {
+    id: 4,
+    title: "Food Festival",
+    description: "Enjoy a variety of cuisines from around the world.",
+    category: "Food",
+    date: "2024-11-20",
+    availableSeats: 200,
+    price: 10,
+    imageUrl: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c",
+  },
+  {
+    id: 5,
+    title: "Fitness Bootcamp",
+    description: "Join a high-energy bootcamp for fitness enthusiasts.",
+    category: "Fitness",
+    date: "2024-10-30",
+    availableSeats: 25,
+    price: 35,
+    imageUrl: "https://images.unsplash.com/photo-1558611848-73f7eb4001a1",
+  },
+  {
+    id: 6,
+    title: "Photography Workshop",
+    description: "Learn photography techniques from professionals.",
+    category: "Photography",
+    date: "2024-11-15",
+    availableSeats: 15,
+    price: 60,
+    imageUrl:
+      "https://media.istockphoto.com/id/1822658330/photo/click-connect.jpg?s=2048x2048&w=is&k=20&c=6gUcJaIWLbdr3rOI88jvvY4oY6bQAQupguldu426AEA=",
+  },
+  {
+    id: 7,
+    title: "Coding Bootcamp",
+    description: "A 3-day immersive bootcamp on full-stack web development.",
+    category: "Technology",
+    date: "2024-12-10",
+    availableSeats: 40,
+    price: 120,
+    imageUrl:
+      "https://cdn.pixabay.com/photo/2015/09/05/20/02/coding-924920_1280.jpg",
+  },
+  {
+    id: 8,
+    title: "Stand-Up Comedy",
+    description: "Laugh out loud with the funniest comedians in town.",
+    category: "Comedy",
+    date: "2024-10-25",
+    availableSeats: 75,
+    price: 25,
+    imageUrl:
+      "https://cdn.pixabay.com/photo/2021/02/27/13/42/comedy-6054626_1280.jpg",
+  },
+  {
+    id: 9,
+    title: "Charity Run",
+    description: "Participate in a 5K run for a good cause.",
+    category: "Fitness",
+    date: "2024-11-05",
+    availableSeats: 300,
+    price: 15,
+    imageUrl:
+      "https://media.istockphoto.com/id/589585380/photo/marathon-runners.jpg?s=2048x2048&w=is&k=20&c=r-CtYmvd0fdnEqjH353rlrena9SDWkvm0fn3_YZmpmk=",
+  },
+  {
+    id: 10,
+    title: "Cooking Class",
+    description: "Master the art of Italian cuisine with a professional chef.",
+    category: "Food",
+    date: "2024-11-18",
+    availableSeats: 20,
+    price: 50,
+    imageUrl:
+      "https://media.istockphoto.com/id/1370529871/photo/chefs-hands-spraying-flour-over-the-dough.jpg?s=2048x2048&w=is&k=20&c=18t-vdOxq0XsWGNYAyJIkdhM4fFZngoRULwSkxICa9I=",
+  },
+  {
+    id: 11,
+    title: "Yoga Retreat",
+    description: "Relax and rejuvenate with a weekend yoga retreat.",
+    category: "Fitness",
+    date: "2024-12-01",
+    availableSeats: 20,
+    price: 150,
+    imageUrl:
+      "https://cdn.pixabay.com/photo/2022/04/18/13/27/yoga-7140566_1280.jpg",
+  },
+  {
+    id: 12,
+    title: "Film Screening",
+    description:
+      "Enjoy a selection of independent films with fellow film lovers.",
+    category: "Art",
+    date: "2024-11-30",
+    availableSeats: 100,
+    price: 10,
+    imageUrl:
+      "https://cdn.pixabay.com/photo/2016/11/22/19/41/filmstrip-1850277_1280.jpg",
+  },
+];
+
+export default eventsData;
