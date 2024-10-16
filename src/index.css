@@ -136,8 +136,13 @@ button:hover {
     font-size: 2rem;
   }
 
+  .event-list-container {
+    margin: 0;
+    padding: 0;
+  }
+
   .event-card {
-    max-width: 90%;
+    padding: 0.5rem;
   }
 
   .search-bar input[type="text"],
@@ -172,7 +177,7 @@ button:hover {
   }
 
   .event-card {
-    padding: 0.9375rem;
+    padding: 0.2rem;
   }
 
   .event-card h3 {
